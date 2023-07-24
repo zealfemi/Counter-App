@@ -1,0 +1,33 @@
+body {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+button {
+  margin: 3px;
+  padding: 10px 20px;
+  width: 100px;
+  text-transform: uppercase;
+}
+
+#count-btn {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  cursor: progress;
+}
+
+#save-btn {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  cursor: grab;
+}
+
+#clear-btn {
+  background-color: darkred;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

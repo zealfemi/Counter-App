@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h2>
+      People Entered: <br />
+      <span id="count">0</span>
+    </h2>
+    <button id="count-btn" onclick="increment()">Count</button>
+    <button id="save-btn" onclick="saveEntry()">Save</button>
+
+    <p>Previous entries: <span id="save-el"></span></p>
+    <p>Total: <span id="total">0</span></p>
+
+    <button id="clear-btn" onclick="clearEntry()">Clear</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>
